@@ -25,11 +25,11 @@ const Projects = () => {
       githubLink: "#"
     },
     {
-      title: "CYBER",
-      tech: "WEB3 / GLSL",
+      title: "FlowPay",
+      tech: "React native / Embedded",
       color: "#ff9d00",
       longDesc: "A futuristic dashboard for decentralized financial assets. It features interactive graphs and a spatial UI that adapts to user movement and device orientation.",
-      tags: ["Ethers.js", "Three.js", "PostProcessing", "Motion"],
+      tags: ["React native", "Embedded", "PostProcessing", "Motion"],
       liveLink: "#",
       githubLink: "#"
     }

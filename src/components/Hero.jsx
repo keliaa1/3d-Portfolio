@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import Spline from '@splinetool/react-spline';
 import { motion } from 'framer-motion';
 
@@ -6,7 +6,15 @@ const Hero = () => {
   return (
     <section id="home" className="relative h-screen w-full bg-black overflow-hidden">
       <div className="absolute inset-0 z-0">
-        <Spline scene="https://prod.spline.design/ycD82n8BEN6ZE47C/scene.splinecode" />
+        <Suspense fallback={
+          <div className="flex items-center justify-center h-full w-full bg-black">
+            <div className="text-white/20 font-black animate-pulse uppercase tracking-[0.5em] text-[10px]">
+              INITIALIZING EXPERIENCE...
+            </div>
+          </div>
+        }>
+          <Spline scene="https://prod.spline.design/ycD82n8BEN6ZE47C/scene.splinecode" />
+        </Suspense>
       </div>
 
       <motion.div
@@ -16,7 +24,29 @@ const Hero = () => {
         className="absolute z-10 text-center"
         style={{ bottom: '150px', left: '50%', transform: 'translateX(-50%)' }}
       >
-        
+        <a
+          href="#contact"
+          className="glass-morphism"
+          style={{
+            padding: '16px 40px',
+            borderRadius: '100px',
+            color: '#fff',
+            textDecoration: 'none',
+            fontSize: '12px',
+            fontWeight: '900',
+            letterSpacing: '0.4em'
+          }}
+          onMouseOver={(e) => {
+            e.currentTarget.style.backgroundColor = 'rgba(255,255,255,0.1)';
+            e.currentTarget.style.borderColor = 'rgba(255,255,255,0.2)';
+          }}
+          onMouseOut={(e) => {
+            e.currentTarget.style.backgroundColor = 'rgba(15, 15, 15, 0.5)';
+            e.currentTarget.style.borderColor = 'rgba(255,255,255,0.05)';
+          }}
+        >
+          LET'S CONNECT
+        </a>
       </motion.div>
 
       <motion.div
