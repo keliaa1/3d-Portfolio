@@ -5,15 +5,15 @@ import { motion } from "framer-motion";
 
 const reviews = [
   {
-    name: "Jack",
-    username: "@jack",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
+    name: "Happy",
+    username: "Founder at 4Ward ",
+    body: "I've never seen anything like this before. It's amazing. I love the creative thinking of Kelia.",
     img: "https://avatar.vercel.sh/jack",
   },
   {
-    name: "Jill",
-    username: "@jill",
-    body: "I don't know what to say. I'm speechless. This is amazing.",
+    name: "John",
+    username: "Ceo",
+    body: "I don't know what to say. I'm speechless. Kelia is truly talented",
     img: "https://avatar.vercel.sh/jill",
   },
   {
@@ -25,19 +25,19 @@ const reviews = [
   {
     name: "Jane",
     username: "@jane",
-    body: "The visuals are absolutely stunning. Truly a masterpiece.",
+    body: "The 3D integration using Three.js and Spline was seamless. Performance stayed solid even on mobile.",
     img: "https://avatar.vercel.sh/jane",
   },
   {
     name: "Jenny",
     username: "@jenny",
-    body: "Increible attention to detail. The animations are top notch.",
+    body: "What stood out was attention to detail. From animations to responsiveness, everything felt intentional and polished.",
     img: "https://avatar.vercel.sh/jenny",
   },
   {
     name: "James",
     username: "@james",
-    body: "This portfolio sets a new standard for web design.",
+    body: "Kelia transformed our idea into a visually stunning website. The 3D elements were smooth, fast, and actually enhanced the user experience instead of slowing it down.",
     img: "https://avatar.vercel.sh/james",
   },
 ];
