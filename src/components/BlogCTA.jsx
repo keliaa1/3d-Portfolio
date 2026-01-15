@@ -18,7 +18,7 @@ const BlogCTA = () => {
 
           <div className="flex justify-center">
             <a
-              href="#"
+              href="https://simbispace.vercel.app/"
               className="glass-morphism"
               style={{
                 padding: '24px 60px',
