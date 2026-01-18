@@ -14,31 +14,31 @@ const reviews = [
     name: "John",
     username: "Ceo",
     body: "I don't know what to say. I'm speechless. Kelia is truly talented",
-    img: "https://avatar.vercel.sh/jill",
+    img: "src/assets/man1.jpg",
   },
   {
     name: "John",
     username: "@john",
     body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/john",
+    img: "src/assets/man1.jpg",
   },
   {
     name: "Jane",
     username: "@jane",
     body: "The 3D integration using Three.js and Spline was seamless. Performance stayed solid even on mobile.",
-    img: "https://avatar.vercel.sh/jane",
+    img: "src/assets/girl1.jpg",
   },
   {
     name: "Jenny",
     username: "@jenny",
     body: "What stood out was attention to detail. From animations to responsiveness, everything felt intentional and polished.",
-    img: "https://avatar.vercel.sh/jenny",
+    img: "src/assets/girl1.jpg",
   },
   {
     name: "James",
     username: "@james",
     body: "Kelia transformed our idea into a visually stunning website. The 3D elements were smooth, fast, and actually enhanced the user experience instead of slowing it down.",
-    img: "https://avatar.vercel.sh/james",
+    img: "src/assets/man2.jpg",
   },
 ];
 
