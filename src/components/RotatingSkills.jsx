@@ -18,13 +18,13 @@ const skillsData = [
     name: "Next.js",
     iconPath: "/svg/next-js.svg",
     description: "React framework for production. Building full-stack applications with ease.",
-    color: "#000000"
+    color: "#ffffff"
   },
   {
     name: "Three.js",
     iconPath: "/svg/threejs.svg",
     description: "3D graphics library for the web. Creating immersive 3D experiences.",
-    color: "#000000"
+    color: "#ffffff"
   },
   {
     name: "Java",
@@ -104,8 +104,8 @@ const RotatingSkills = () => {
               backdropFilter: 'blur(20px)'
             }}
           >
-            <img 
-              src={skill.iconPath} 
+            <img
+              src={skill.iconPath}
               alt={skill.name}
               className="w-full h-full object-contain"
               style={{
@@ -132,25 +132,25 @@ const RotatingSkills = () => {
       <AnimatePresence mode="wait">
         {skillsData.map((skill, index) => {
           if (index !== activeIndex) return null;
-          
+
           // Calculate position for the active icon
           let relativeIndex = index - activeIndex;
           if (relativeIndex > totalSkills / 2) relativeIndex -= totalSkills;
           if (relativeIndex <= -totalSkills / 2) relativeIndex += totalSkills;
-          
+
           const spacing = 25;
           const angle = 90 - (relativeIndex * spacing);
           const radius = 400;
           const rad = (angle * Math.PI) / 180;
           const iconX = Math.cos(rad) * radius;
           const iconY = -Math.sin(rad) * radius + 400;
-          
+
           return (
             <motion.div
               key={skill.name}
               initial={{ opacity: 0, y: iconY - 150, scale: 0.9 }}
-              animate={{ 
-                opacity: 1, 
+              animate={{
+                opacity: 1,
                 x: iconX - 200, // Center the card above icon (card width ~400px, so -200 centers it)
                 y: iconY - 200, // Position above the icon
                 scale: 1
