@@ -17,7 +17,7 @@ const About = () => {
           </h2>
           <div className="mx-auto" style={{ maxWidth: '600px' }}>
             <p style={{ color: 'rgba(255,255,255,0.5)', fontSize: '1.25rem', fontWeight: '300', lineHeight: '1.8' }}>
-              Based at the intersection of design and technology, I craft high-performance
+              As a student at Rwanda Coding Academy, based at the intersection of design and technology, I craft high-performance
               digital experiences that push the boundaries of what's possible on the web.
             </p>
           </div>
