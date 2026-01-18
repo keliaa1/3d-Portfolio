@@ -13,7 +13,7 @@ const Contact = () => {
         >
           <p style={{ color: 'rgba(255,255,255,0.3)', fontWeight: '800', letterSpacing: '0.5em', fontSize: '10px', marginBottom: '40px' }}>THE DIALOGUE</p>
           <h2 className="text-gradient" style={{ fontSize: 'clamp(4rem, 12vw, 10rem)', lineHeight: '0.9', marginBottom: '80px', trackingTighter: '-0.06em' }}>
-            START A <br/>REVOLUTION.
+            START A <br/>Change
           </h2>
 
           <div className="flex flex-col items-center" style={{ gap: '80px' }}>
